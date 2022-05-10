@@ -1,6 +1,6 @@
 {
   "name": "@hemyn/moon-kafka",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "eggPlugin": {
     "name": "moonKafka"
@@ -11,7 +11,8 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "kafka-node": "^5.0.0"
+    "kafka-node": "^5.0.0",
+    "standard-version": "^9.3.2"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -33,7 +34,8 @@
     "lint": "eslint .",
     "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
-    "autod": "autod"
+    "autod": "autod",
+    "release": "standard-version"
   },
   "files": [
     "config",
