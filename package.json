@@ -1,9 +1,9 @@
 {
   "name": "@hemyn/moon-kafka",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "eggPlugin": {
-    "name": "moonKafka"
+    "name": "kafka"
   },
   "keywords": [
     "egg",
